@@ -1,0 +1,39 @@
+.carousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 600px;
+}
+.slide {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.arrow {
+  position: absolute;
+  font-size: 40px;
+
+  color: rgb(0, 0, 0);
+}
+.arrow-left {
+  left: 1rem;
+}
+.arrow-right {
+  right: 1rem;
+}
+
+.indicators {
+  position: absolute;
+  display: flex;
+  bottom: 1rem;
+}
+.indicator {
+  background-color: white;
+
+  border-radius: 100%;
+  border: none;
+  margin: 0 0.2rem;
+  outline: none;
+}

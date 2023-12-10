@@ -1,0 +1,63 @@
+* {
+  font-family: Inter;
+}
+.profileContent {
+  margin: 10px;
+}
+.addMemberBtn {
+  background-color: #099250;
+  color: white;
+  font-size: 14px;
+}
+.Profile {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+.selfProfileContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.profileBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profileBtn Button {
+  background-color: #099250;
+  color: white;
+  width: 180px;
+}
+.profileName {
+  font-weight: 500;
+  font-size: 16px;
+}
+.profileData {
+  font-size: 14px;
+  color: #667085;
+}
+.dependentsProfiles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.dependents {
+  display: flex;
+  justify-content: center;
+  color: #667085;
+}
+
+.dependentProfileList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}

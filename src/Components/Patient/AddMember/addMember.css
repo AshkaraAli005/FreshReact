@@ -1,0 +1,143 @@
+* {
+  font-family: Inter;
+}
+.addMember {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.topper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+.headTitle {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 400;
+  color: #095c37;
+  font-family: Fraunces;
+}
+.topper Button {
+  background-color: #1d2939;
+  color: white;
+}
+.content1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contentDiv1 {
+  font-family: Fraunces;
+  font-weight: 400;
+  font-size: 22px;
+  color: #095c37;
+}
+.contentDiv2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085 !important;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.checkDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.checkBox {
+  font-size: 14px;
+  color: #98a2b3;
+}
+.checkBoxSpan {
+  color: #084c2e !important;
+}
+
+.content2Div1 {
+  color: #095c37;
+  font-weight: 500;
+  font-size: 16px;
+}
+.formContent {
+  width: 40%;
+}
+.createBtn {
+  display: flex;
+  justify-content: center;
+}
+.createBtn Button {
+  background-color: #099250;
+  color: white;
+  width: 185px;
+}
+@media only screen and (max-width: 800px) {
+  .formContent {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .formContent {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .formContent {
+    width: 100%;
+  }
+  .topper {
+    flex-direction: column;
+  }
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-select .ant-select-arrow {
+  background-color: rgb(242, 248, 242);
+  display: flex;
+  color: #1d2939;
+  justify-content: center;
+  height: 100%;
+  width: 40px;
+  inset-inline-end: 0px;
+  top: 15%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.nameDiv {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.names {
+  width: 49%;
+}
+.Input {
+  width: 100%;
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-picker {
+  padding: 0px;
+  padding-left: 10px;
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-picker .ant-picker-suffix {
+  height: 40px;
+  color: #1d2939;
+  background-color: rgb(242, 248, 242);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  justify-content: center;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 40px;
+  padding: 0px;
+}
